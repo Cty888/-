@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<link rel="stylesheet" href="css/airtickets.css">
+	<script src="../../../前端/jQuery/jquery-3.3.1.js"></script>
+	<script src="js/airtickets.js"></script>
+</head>
+
+<body>
+	<div class="airtickets">
+		<ul class="airtickets_title">
+			<li class="airtickets_title_items">
+				<a class="current" href="#">国内机票</a>
+			</li>
+			<li class="airtickets_title_items">
+				<a href="#">国际/港澳台</a>
+			</li>
+			<li class="airtickets_title_items">
+				<a href="#">特惠</a>
+			</li>
+		</ul>
+		<div class="airtickets_contents">
+			<div class="airtickets_domestic content">
+				<div class="airtickets_way">
+					<input type="radio" class="one_way" name="travel" value="0" checked><span>单程</span>
+					<input type="radio" class="two_way" name="travel" value="1"><span>返程</span>
+				</div>
+				<div class="airtickets_setoff">
+					<label>出发</label>
+					<input type="text" placeholder="城市">
+				</div>
+				<span class="go_and_back"></span>
+		  		<div class="airtickets_arrivals">
+					<label>到达</label>
+					<input type="text" placeholder="城市">
+		 		</div>
+				<div>
+					<div class="airtickets_date date_show">
+						<label>日期</label>
+						<input type="text" placeholder="出发">
+					</div>
+					<div class="airtickets_date1 date_show" style="display: none;">
+						<label>日期</label>
+						<input type="text" placeholder="出发">
+						<input type="text" placeholder="返程" class="back">
+					</div>
+				</div>
+		 		
+				<div class="airtickets_inquire">
+					<a href="#">机票查询</a>
+				</div>
+				<p class="airtickets_hot">当季热门特惠机票</p>
+			</div>
+			<div class="airtickets_international content" style="display: none;">
+				<div class="airtickets_way1">
+					<input type="radio" class="one_way" name="travel1" value="0" checked><span>单程</span>
+					<input type="radio" class="two_way" name="travel1" value="1"><span>往返</span>
+				</div>
+				<div class="airtickets_setoff">
+					<label>出发</label>
+					<input type="text" placeholder="城市">
+				</div>
+				<span class="go_and_back"></span>
+		  		<div class="airtickets_arrivals">
+					<label>到达</label>
+					<input type="text" placeholder="城市">
+		 		</div>
+				<div class="airtickets_date date_show1">
+					<label>日期</label>
+					<input type="text" placeholder="出发">
+				</div>
+				<div class="airtickets_date1 date_show1" style="display: none;">
+					<label>日期</label>
+					<input type="text" placeholder="出发">
+					<input type="text" placeholder="返程" class="back">
+				</div>
+				<div class="airtickets_inquire">
+					<a href="#">机票查询</a>
+				</div>
+				<p class="airtickets_hot">国际机票任性搜</p>
+			</div>	
+			<div class="airtickets_special content" style="display: none;">
+				<span class="special_picture">
+					<a href="#">
+						<img src="images/fourpart5.1.jpg">
+					</a>
+				</span>
+				<span class="special_picture">
+					<a href="#">
+						<img src="images/fourpart5.2.jpg">
+					</a>
+				</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

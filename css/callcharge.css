@@ -1,0 +1,145 @@
+@charset "utf-8";
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{
+	margin: 0;
+	padding: 0;
+}
+body,button,input,select,textarea{
+	font: 12px/1.5 "Micresoft Yahei","Hiragino Sans GB",tahoma,arial;
+}
+button.h1,h2,h3,h4,h5,h6,input,select,textarea{
+	font-size: 100%;
+}
+address,cite,dfn,em,var{
+	font-style: normal;
+}
+code,kbd,pre,samp{
+	font-family:courier new,courier,monospace;
+}
+small{
+	font-size: 12px;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+sup{
+	vertical-align: text-top;
+}
+sub{
+	vertical-align: text-bottom;
+}
+legend{
+	color: #000;
+}
+fieldset,img{
+	border: 0;
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.call_charge{
+	width: 170px;
+	height: 180px;
+	overflow: hidden;
+}
+.call_charge .callcharge_title{
+	position: relative;
+	height: 21px;
+	padding-left: 0px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.call_charge .callcharge_title li{
+	float: left;
+	width: 56px;
+	padding: 0;
+	margin: 0;
+}
+.call_charge .callcharge_title li a{
+	font-size: 12px;
+	color:#565555;
+}
+.call_charge .callcharge_title li a.current{
+	color:#C93A3C;
+}
+.callcharge_contents{
+	width: 170px;
+	height: 146px;
+}
+.callcharge_contents .callcharge_num,.flowcharge .flowcharge_num，.packagecharge .packagecharge_num{
+	position: relative;
+	height: auto;
+}
+.callcharge_contents .callcharge_num label,.callcharge_contents .callcharge_money label,.flowcharge .flowcharge_num label,.flowcharge .flowcharge_flow label,.packagecharge .packagecharge_num label,.packagecharge .packagecharge_month label{
+	display: inline-block;
+	width: 30px;
+	color:#565555;
+}
+.callcharge_contents .callcharge_num input,.callcharge_contents .callcharge_money select,.flowcharge .flowcharge_num input,.packagecharge .packagecharge_num input,.packagecharge .packagecharge_month select{
+	display: inline-block;
+	width: 120px;
+	height: 22px;
+	color:#C7BEBE;
+	border: 1px solid #C7BEBE;
+	margin-bottom: 5px;
+}
+.callcharge_contents .specific_money,.flowcharge .flowcharge_money{
+	color: #D64345;
+	margin-bottom: 5px;
+}
+.callcharge_contents .callcharge_rechange,.flowcharge .flowcharge_recharge,.packagecharge .packagecharge_handle{
+	background: #D64345;
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 10px;
+}
+.callcharge_contents .callcharge_rechange a,.flowcharge .flowcharge_recharge a,.packagecharge .packagecharge_handle a{
+	color: #fff;
+}
+.callcharge_contents .callcharge_voucher{
+	margin-top: 6px;
+}
+.callcharge_contents .callcharge_voucher a,.flowcharge .flowcharge_appstore a{
+	color: #3077B9;
+}
+.flowcharge .flowcharge_flow select{
+	height: 22px;
+	width: 60px;
+	border: 1px solid #C7BEBE;
+	color:#C7BEBE;
+	margin-bottom: 10px;
+}
+.flowcharge .flowcharge_recharge,.flowcharge .flowcharge_appstore{
+	display: inline-block;
+}
+.packagecharge .packagecharge_minute{
+	color:  #D64345;
+	margin-bottom: 5px;
+}
+.packagecharge .packagecharge_unlimited{
+	margin-top: 5px;
+}
+.packagecharge .packagecharge_unlimited .hot{
+	background: #3077B9;
+	width: 30px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	border-radius: 10px;
+	display: inline-block;
+}
+.packagecharge .packagecharge_unlimited i{
+	color: #fff;
+	font-style: normal;
+}

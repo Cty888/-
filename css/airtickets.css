@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{
+	margin: 0;
+	padding: 0;
+}
+body,button,input,select,textarea{
+	font: 12px/1.5 "Micresoft Yahei","Hiragino Sans GB",tahoma,arial;
+}
+button.h1,h2,h3,h4,h5,h6,input,select,textarea{
+	font-size: 100%;
+}
+address,cite,dfn,em,var{
+	font-style: normal;
+}
+code,kbd,pre,samp{
+	font-family:courier new,courier,monospace;
+}
+small{
+	font-size: 12px;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+sup{
+	vertical-align: text-top;
+}
+sub{
+	vertical-align: text-bottom;
+}
+legend{
+	color: #000;
+}
+fieldset,img{
+	border: 0;
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+.airtickets{
+	width: 170px;
+	height: 180px;
+	overflow: hidden;
+}
+.airtickets .airtickets_title{
+	position: relative;
+	height: 21px;
+	padding-left: 0px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.airtickets .airtickets_title .airtickets_title_items{
+	display: inline-block;
+	margin-right: 5px;
+}
+.airtickets .airtickets_title .airtickets_title_items a{
+	color:#555353;
+}
+.airtickets .airtickets_title .airtickets_title_items a.current{
+	color:#D03234;
+}
+.airtickets .airtickets_contents{
+	position: relative;
+}
+.airtickets .airtickets_contents .airtickets_domestic{
+	position: relative;
+}
+.airtickets .airtickets_contents .airtickets_way{
+	
+}
+.airtickets .airtickets_contents .airtickets_way input,.airtickets .airtickets_contents .airtickets_way span,.airtickets .airtickets_contents .airtickets_way1 input,.airtickets .airtickets_contents .airtickets_way1 span{
+	margin-right: 10px;
+}
+.airtickets_setoff{
+	margin-top: 5px;
+	margin-bottom: -1px;
+}
+.airtickets_date{
+	margin-top: 10px;
+}
+.airtickets_setoff label,.airtickets_arrivals label,.airtickets_date label{
+	display: inline-block;
+	color:#555353;
+}
+.airtickets_setoff input,.airtickets_arrivals input,.airtickets_date input{
+	display: inline-block;
+	width: 120px;
+	border: 1px solid #555353;
+	text-align: center;
+}
+.airtickets_date1{
+	margin-top: 10px;
+}
+.airtickets_date1 label{
+	display: inline-block;
+}
+.airtickets_date1 input{
+	display: inline-block;
+	width: 60px;
+	border: 1px solid #555353;
+	text-align: center;
+}
+.airtickets_date1 input.back{
+	margin-left: -4px;
+}
+.go_and_back{
+	position: absolute;
+	background-image: url(../images/fourpart4.1.png);
+	width: 18px;
+	height: 18px;
+	right: 15px;
+	top: 33px;
+}
+.airtickets_inquire{
+	width: 60px;
+	height: 20px;
+	background:#D64345;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 10px;
+	display: inline-block;
+	margin-top: 10px;
+}
+.airtickets_inquire a{
+	color: #fff;
+}
+.airtickets_hot{
+	display: inline-block;
+	color: #3077B9;
+}
+.airtickets_special .special_picture{
+	display: inline-block;
+	margin-top: 20px;
+}
+.airtickets_special .special_picture img{
+	width: 75px;
+	height: 96px;
+}
